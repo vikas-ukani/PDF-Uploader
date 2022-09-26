@@ -23,6 +23,14 @@ This project is responsible for handling and managing the PDFs which is uploaded
 - SignUp Page
 - Logout 
 - Forgot Password Page
-
 - Home Page
 - PDFs Management Page.
+
+## Installation Process
+
+### Clone this repo via below command,
+```
+git clone https://github.com/vikas-ukani/PDF-Uploader.git
+```
+
+
