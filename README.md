@@ -34,3 +34,54 @@ git clone https://github.com/vikas-ukani/PDF-Uploader.git
 ```
 
 
+
+### Copy .env file from .env.example
+```
+cp .env.example .env
+```
+
+### Edit .env  and Set Database Configurations.
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=packt-database
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+### Install Packages
+```
+composer install 
+```
+
+
+### Generate app key
+```
+php artisan key:generate
+```
+
+
+### Migrate database
+```
+php artisan migrate
+```
+
+OR with `--seed` flag to seed the database
+
+```
+php artisan migrate --seed
+```
+
+### Seed Data
+```
+php artisan db:seed
+```
+
+- It will create categories and random books factory data to testing more.
+
+### Run the Project
+```
+php artisan serve
+```
+
