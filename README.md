@@ -85,3 +85,10 @@ php artisan db:seed
 php artisan serve
 ```
 
+### Run the application UI
+```
+npm intall && npm run dev
+```
+
+
+ 
